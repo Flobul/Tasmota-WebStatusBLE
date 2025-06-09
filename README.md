@@ -22,7 +22,7 @@ With BLE support:
 - Copy it to your ESP32 via Tasmota web interface (Console -> Manage File System)
 - Enable it:
    ```
-   br load('remote.be') # or remote_dimmer.be
+   br load('ble_status.be')
    ```
 
 #### Automatic installation 
