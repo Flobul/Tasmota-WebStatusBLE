@@ -69,13 +69,13 @@ To make the code run at startup, you can either:
 If you would like a fully berry solution to loading eWeLinkRemote, add the following line to autoexec.be
 
    ```
-    tasmota.add_rule('Wifi#Connected', / -> load('ble_status.be'))
+    tasmota.add_rule('System#Boot', / -> load('ble_status.be'))
    ```
 
 Otherwise, you can simply make a rule:
 
    ```
-    Rule1 ON Wifi#Connected DO br load('ble_status.be') ENDON
+    Rule1 ON System#Boot DO br load('ble_status.be') ENDON
    ```
 Enable the rule:
    ```
