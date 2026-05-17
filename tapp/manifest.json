@@ -1,0 +1,8 @@
+{
+  "name": "BLE Status",
+  "version": "0x19090600",
+  "description": "Display BLE/MI32 support status in top-right corner of WebUI",
+  "author": "Flobul",
+  "min_tasmota": "0x0E060002",
+  "features": ""
+}
