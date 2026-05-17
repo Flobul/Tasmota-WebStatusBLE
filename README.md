@@ -16,6 +16,17 @@ With BLE support:
 
 ## Installation
 
+#### Extension (.tapp) — recommended
+
+The easiest way to install is to use the Tasmota Extension format:
+
+1. Download [`BLE_Status.tapp`](BLE_Status.tapp) from this repository.
+2. In the Tasmota web interface, go to **Configuration → Manage File System**.
+3. Upload `BLE_Status.tapp` to the file system.
+4. The extension is loaded automatically on the next boot.
+
+The `.tapp` file is a self-contained archive (`autoexec.be`, `ble_status.be`, `manifest.json`) and does not pollute the global Berry namespace.
+
 #### Manual installation 
 
 - Download the `ble_status.be` file.
