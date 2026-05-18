@@ -12,6 +12,11 @@ class BleStatus : Driver
     
     def init()
         self.ble_status = self.check_ble_support()
+        tasmota.add_driver(self)
+    end
+
+    def unload()
+        tasmota.remove_driver(self)
     end
 
     def check_ble_support()
